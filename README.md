@@ -9,11 +9,11 @@ see origREADME.md for details directories just added as web site running on asp.
 
 ## Project Pre-Requisite
 
-Needed to install bower packages (bower install) - bower.json unpacks into bower_components
+Install bower packages (bower install) - bower.json unpacks into bower_components
 
 ## Chutzpah piece
 
-Needs the Chutzpah extension installed in visual studio
+Requires the Chutzpah extension installed in visual studio
 Set up Chutzpah.json see - route folder
 
 Contents show paths etc - used instead of SpecRunner.html
