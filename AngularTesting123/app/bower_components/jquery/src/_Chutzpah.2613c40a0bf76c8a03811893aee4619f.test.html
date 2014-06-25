@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title>Jasmine Spec Runner</title>
+    <link rel="stylesheet" type="text/css" href="file:///C:/USERS/ANDREW%20W8/APPDATA/LOCAL/MICROSOFT/VISUALSTUDIO/11.0/EXTENSIONS/SYW2DI2A.WBK/TestFiles/jasmine/v2/jasmine.css"/>
+<script type="text/javascript" src="file:///C:/USERS/ANDREW%20W8/APPDATA/LOCAL/MICROSOFT/VISUALSTUDIO/11.0/EXTENSIONS/SYW2DI2A.WBK/TestFiles/jasmine/v2/jasmine.js"></script>
+<script type="text/javascript" src="file:///C:/USERS/ANDREW%20W8/APPDATA/LOCAL/MICROSOFT/VISUALSTUDIO/11.0/EXTENSIONS/SYW2DI2A.WBK/TestFiles/jasmine/v2/jasmine-html.js"></script>
+<script type="text/javascript" src="file:///C:/USERS/ANDREW%20W8/APPDATA/LOCAL/MICROSOFT/VISUALSTUDIO/11.0/EXTENSIONS/SYW2DI2A.WBK/TestFiles/jasmine/v2/boot.js"></script>
+<link rel="shortcut icon" type="image/png" href="file:///C:/USERS/ANDREW%20W8/APPDATA/LOCAL/MICROSOFT/VISUALSTUDIO/11.0/EXTENSIONS/SYW2DI2A.WBK/TestFiles/jasmine/v2/jasmine_favicon.png"/>
+
+    
+    
+    
+    <script type="text/javascript" src="file:///c:/code/angular/angulartesting123/app/bower_components/angular/angular.js"></script>
+<script type="text/javascript" src="file:///c:/code/angular/angulartesting123/app/bower_components/angular-mocks/angular-mocks.js"></script>
+<script type="text/javascript" src="file:///c:/code/angular/angulartesting123/app/js/controllers.js"></script>
+
+    <script type="text/javascript" src="file:///c:/code/angular/angulartesting123/app/bower_components/jquery/src/wrap.js"></script>
+
+    <script type="text/javascript">
+
+        (function () {
+            var amdTestPath = "";
+            if (window.require && typeof window.require === "function" && amdTestPath !== "") {
+                if (window.chutzpah) {
+                    window.chutzpah.usingModuleLoader = true;
+                }
+
+                requirejs.config({
+                    map: {
+                        '*': {
+                            
+                            }
+                    }
+                });
+
+                window.require([amdTestPath], function () {
+
+                    console.log("!!_!! Stating Jasmine from AMD callback...");
+                    window.initializeJasmine();
+                });
+            }
+            else {
+                var currentWindowOnload = window.onload;
+
+                window.onload = function() {
+                    if (currentWindowOnload) {
+                        currentWindowOnload();
+                    }
+                    window.initializeJasmine();
+                };
+            }
+
+        })();
+    </script>
+</head>
+<body>
+</body>
+</html>
