@@ -19,7 +19,7 @@ Set up Chutzpah.json see - route folder
 Contents show paths etc - used instead of SpecRunner.html
 
     
-```    {  
+    {  
 
        "Framework": "jasmine",
 
@@ -34,7 +34,7 @@ Contents show paths etc - used instead of SpecRunner.html
     	"Tests": [ "/test/unit/* ], 
 
     }
-    ```
+
 ## Test Explorer
 
 Open test explorer and run jasmine PhoneCat controllers test
