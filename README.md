@@ -25,9 +25,9 @@ Contents show paths etc - used instead of SpecRunner.html
 
        "RootReferencePathMode":"SettingsFileDirectory",
        "References": [
-		{ "Path": "/app/bower_components/angular/angular.js"},
-		{ "Path": "/app/bower_components/angular-mocks/angular-mocks.js"},
-		{ "Path": "/app/js/controllers.js" }
+		    { "Path": "/app/bower_components/angular/angular.js"},
+		    { "Path": "/app/bower_components/angular-mocks/angular-mocks.js"},
+		    { "Path": "/app/js/controllers.js" }
 	    ],
 
 	"TestHarnessDirectory": "/test/unit/",
