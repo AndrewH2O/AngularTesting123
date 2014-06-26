@@ -28,7 +28,7 @@ Contents show paths etc - used instead of SpecRunner.html
 		{ "Path": "/app/bower_components/angular/angular.js"},
 		{ "Path": "/app/bower_components/angular-mocks/angular-mocks.js"},
 		{ "Path": "/app/js/controllers.js" }
-	],
+	    ],
 
 	"TestHarnessDirectory": "/test/unit/",
     	"Tests": [ "/test/unit/* ], 
