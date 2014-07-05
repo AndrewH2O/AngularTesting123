@@ -57,7 +57,6 @@
     <Reference Include="System.EnterpriseServices" />
   </ItemGroup>
   <ItemGroup>
-    <Content Include="app\angular.js" />
     <Content Include="app\bower_components\angular-mocks\angular-mocks.js" />
     <Content Include="app\bower_components\angular-mocks\_Chutzpah.82a9bc5ebe37d628ee0688c33f464610.test.html" />
     <Content Include="app\bower_components\angular\angular-csp.css" />

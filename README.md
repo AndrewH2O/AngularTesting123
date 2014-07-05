@@ -36,5 +36,6 @@ Contents show paths etc - used instead of SpecRunner.html
 ## Test Explorer
 
 Open test explorer and run jasmine PhoneCat controllers test
+App start page /app/index.html
 
 
