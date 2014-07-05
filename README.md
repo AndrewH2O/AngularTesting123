@@ -5,7 +5,7 @@ After much fiddling got this to work... in retrospec looks simple now.
 
 ## Project is based on angular phone catalog tutorial
 
-see origREADME.md for details directories just added as web site running on asp.net development server. I have ripped out some pieces however.
+see origREADME.md for details directories just added as a web project. I have ripped out some pieces however.
 
 ## Project Pre-Requisite
 
@@ -18,20 +18,22 @@ Set up Chutzpah.json see - route folder
 
 Contents show paths etc - used instead of SpecRunner.html
 
-{
-    "Framework": "jasmine",
+    
+    {  
 
-	"RootReferencePathMode":"SettingsFileDirectory",
-	"References": [
-		{ "Path": "/app/bower_components/angular/angular.js"},
-		{ "Path": "/app/bower_components/angular-mocks/angular-mocks.js"},
-		{ "Path": "/app/js/controllers.js" }
-	],
+       "Framework": "jasmine",
+
+       "RootReferencePathMode":"SettingsFileDirectory",
+       "References": [
+		    { "Path": "/app/bower_components/angular/angular.js"},
+		    { "Path": "/app/bower_components/angular-mocks/angular-mocks.js"},
+		    { "Path": "/app/js/controllers.js" }
+	    ],
 
 	"TestHarnessDirectory": "/test/unit/",
-    "Tests": [ "/test/unit/* ], 
-}
+    	"Tests": [ "/test/unit/* ], 
 
+    }
 
 ## Test Explorer
 
